@@ -3,10 +3,12 @@ var fs = require('fs');
 
 const PORT = 8080;
 
-fs.readFile('./public/index.html', (err, html) => {
+// TODO ::: fix types here
+
+fs.readFile('./public/index.html', (err: any, html: any) => {
 	if (err) throw err;
 
-	http.createServer((request, response) => {
+	http.createServer((request: any, response: any) => {
 		response.writeHeader(200, { 'Content-Type': 'text/html' });
 		response.write(html);
 		response.end();

@@ -20,6 +20,10 @@
   },
   "homepage": "https://github.com/AlexScriba/Weaver#readme",
   "dependencies": {
-    "@types/node": "^17.0.10"
+    "@types/node": "^17.0.10",
+    "tsc": "^2.0.4"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
   }
 }
