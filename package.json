@@ -21,6 +21,7 @@
   "homepage": "https://github.com/AlexScriba/Weaver#readme",
   "dependencies": {
     "@types/node": "^17.0.10",
+    "lodash": "^4.17.21",
     "tsc": "^2.0.4"
   },
   "devDependencies": {
